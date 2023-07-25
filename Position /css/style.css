@@ -17,6 +17,7 @@ body {
   height: 85vw;
   margin: 40px auto;
   border: 3px dashed #000;
+  position: relative;
 }
 
 .inner-container {
@@ -34,15 +35,24 @@ body {
 }
 
 .absolute {
-  
+  background-color: #00f;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .relative {
-
+  background-color: red;
+  position: relative;
+  top: 120px;
+  left: 240px;
 }
 .fixed {
-
+  background-color: green;
+  position: fixed;
 }
 .sticky {
-
+  background-color: gold;
+  position: sticky;
+  top: 0;
 }
