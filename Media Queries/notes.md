@@ -1,4 +1,5 @@
-### Common Media Query breakpoints:
+# Common Media Query breakpoints
+
 | Breakpoint | Description |
 | -------- | ---------- |
 | < 481px | Mobile devices |
@@ -7,7 +8,8 @@
 | 1025px — 1200px | Desktops, large screens |
 | 1201px and greater | Extra large screens, TV |
 
-### Bootstrap breakpoints:
+## Bootstrap breakpoints
+
 | Breakpoint | Description |
 | -------- | ---------- |
 | < 576px | xs |
@@ -17,7 +19,8 @@
 | >=1200px | xl |
 | >=1400px | 2xl |
 
-### Tailwind breakpoints:
+## Tailwind breakpoints
+
 | Breakpoint | Description |
 | -------- | ---------- |
 | < 640px | xs |
