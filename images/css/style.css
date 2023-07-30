@@ -29,11 +29,8 @@ body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
   background-color: aliceblue;
-  background-image: url('../img/bubbles.png'),
-                    linear-gradient(to right ,steelblue, violet);
-  background-repeat: repeat-y, no-repeat;
-  background-position: right center;
-  background-size: 8%, auto;
+  background: repeat-y right center url('../img/bubbles.png'), no-repeat linear-gradient(to right ,steelblue, violet);;
+  background-size: 8%, auto; 
 }
 
 .container {
@@ -85,6 +82,19 @@ h1 {
 .example img {
   width: 25%;
   height: auto;
+}
+
+.clip {
+  font-weight: 800;
+  font-size: 20rem;
+  text-align: center;
+  background-image: url(../img/scenic-2200x1331.png);
+  background-size: 100%;
+  background-position: bottom left;
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.205);
 }
 
 
